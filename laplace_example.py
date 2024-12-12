@@ -3,8 +3,8 @@ from skimage import io, filters, img_as_ubyte
 import numpy as np
 
 # 设置输入和输出文件夹路径
-folder_path = 'C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/spriters/Forage'
-output_folder = os.path.join('C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'laplace_edges')
+folder_path = 'C:/Users/myname/Desktop/Semester 3/CS6123/project_3/spriters/Forage'
+output_folder = os.path.join('C:/Users/myname/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'laplace_edges')
 os.makedirs(output_folder, exist_ok=True)
 
 for file_name in os.listdir(folder_path):
