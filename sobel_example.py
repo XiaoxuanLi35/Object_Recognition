@@ -3,10 +3,10 @@ from skimage import io, filters, img_as_ubyte
 import matplotlib.pyplot as plt
 
 # Define the input folder containing images
-folder_path = 'C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/spriters/Forage'
+folder_path = 'C:/Users/myname/Desktop/Semester 3/CS6123/project_3/spriters/Forage'
 
 # Define the output folder. If not exist, creat one
-output_folder = os.path.join('C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'output_edges')
+output_folder = os.path.join('C:/Users/myname/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'output_edges')
 os.makedirs(output_folder, exist_ok=True)
 
 # Loop through each file in the input folder
