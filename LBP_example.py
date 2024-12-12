@@ -9,8 +9,8 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, module='PIL.Image')
 
 # Define input and output paths
-input_path = 'C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/spriters/Fishes'
-output_base = 'C:/Users/李晓璇/Desktop/Semester 3/CS6123/project_3/scikit-image/Fishes'
+input_path = 'C:/Users/myname/Desktop/Semester 3/CS6123/project_3/spriters/Fishes'
+output_base = 'C:/Users/myname/Desktop/Semester 3/CS6123/project_3/scikit-image/Fishes'
 
 # Create LBP output folder
 output_path = os.path.join(output_base, 'LBP')
