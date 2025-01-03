@@ -8,8 +8,8 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 # Target folders
-input_path = Path(r"C:\Users\李晓璇\Desktop\Semester 3\CS6123\project_3\spriters\Forage")
-output_path = Path(r"C:\Users\李晓璇\Desktop\Semester 3\CS6123\project_3\scikit-image\Forage\color_histogram")
+input_path = Path(r"C:\Users\name\Desktop\Semester 3\CS6123\project_3\spriters\Forage")
+output_path = Path(r"C:\Users\name\Desktop\Semester 3\CS6123\project_3\scikit-image\Forage\color_histogram")
 output_path.mkdir(exist_ok=True)
 
 def extract_color_histogram(image_path):
