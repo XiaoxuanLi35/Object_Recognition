@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 
 # Set path to histogram data directory
-output_path = Path(r"C:\Users\李晓璇\Desktop\Semester 3\CS6123\project_3\scikit-image\Cooking\color_histogram")
+output_path = Path(r"C:\Users\name\Desktop\Semester 3\CS6123\project_3\scikit-image\Cooking\color_histogram")
 
 # Load all histogram data
 histograms = []
