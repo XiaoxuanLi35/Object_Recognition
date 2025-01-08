@@ -55,6 +55,6 @@ def batch_process_images(input_dir, output_dir):
 # Usage example
 if __name__ == "__main__":
     input_directory = 'C:/Users/myname/Desktop/Semester 3/CS6123/project_3/spriters/Forage'
-    output_directory = os.path.join('C:/Users/myname/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'HOG_3')
+    output_directory = os.path.join('C:/Users/myname/Desktop/Semester 3/CS6123/project_3/scikit-image/Forage', 'HOG')
     
     batch_process_images(input_directory, output_directory)
